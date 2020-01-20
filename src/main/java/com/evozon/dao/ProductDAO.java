@@ -12,11 +12,6 @@ public interface ProductDAO {
     Product getById(int id);
 
     /*
-     * Retrieves a product from the DB based on the category code
-     */
-    Product getByCategory(int id);
-
-    /*
      * Retrieves all the products from the DB
      */
     List<Product> getAll();

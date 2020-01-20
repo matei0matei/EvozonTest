@@ -13,6 +13,7 @@
         <springVersion>5.2.2.RELEASE</springVersion>
         <hibernateVersion>5.4.10.Final</hibernateVersion>
         <mySqlConnectorVersion>5.1.47</mySqlConnectorVersion>
+        <jstlVersion>1.2</jstlVersion>
     </properties>
 
     <dependencies>
@@ -43,6 +44,14 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mySqlConnectorVersion}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/jstl/jstl -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstlVersion}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
