@@ -1,7 +1,6 @@
 package com.evozon.dao.impl;
 
 import com.evozon.dao.ProductDAO;
-import com.evozon.model.Category;
 import com.evozon.model.Product;
 
 import java.util.ArrayList;
